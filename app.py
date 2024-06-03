@@ -52,16 +52,7 @@ class MyBL(BoxLayout):
 
     data_label = StringProperty("Треугольник!")
 	
-    # def __init__(self, **kwargs):
-	# 	super().__init__(**kwargs)
-	# 	SERVER = "10.8.0.6"
-	# 	PORT = 1488
-		
-	# 	self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-	# 	self.client.connect((SERVER, PORT))
-	# 	self.client.sendall(bytes("979879789",'UTF-8'))
-
-		# threading.Thread(target=self.get_data).start()
+	# 	threading.Thread(target=self.get_data).start()
 def callback(self):
 		print("Поиск по названию")
 		# self.client.sendall(bytes("Поиск по названию",'UTF-8'))
